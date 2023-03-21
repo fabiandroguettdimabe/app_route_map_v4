@@ -36,7 +36,24 @@ dependencies:
   cupertino_icons: ^1.0.2
   provider: ^6.0.0
   getwidget: ^3.0.1
-
+  shared_preferences: ^2.0.17
+  auto_size_text: ^3.0.0
+  flutter_dotenv: ^5.0.2
+  dio: ^4.0.6
+  font_awesome_flutter: ^10.3.0
+  async_builder: ^1.3.1
+  geolocator: ^9.0.2
+  flutter_map: ^3.1.0
+  google_maps_flutter: ^2.2.3
+  image_picker: ^0.8.6+1
+  map_launcher: ^2.4.0
+  flutter_next: ^0.1.1
+  very_good_infinite_list: ^0.7.0
+  geocoding: ^2.0.4
+  flutter_awesome_select: ^6.5.0
+  permission_handler: ^9.2.0
+  flutter_localizations:
+    sdk: flutter
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -61,6 +78,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/img/
+    - .env
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
